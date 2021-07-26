@@ -1,0 +1,153 @@
+body{
+    font-family: 'Roboto' sans-serif;
+}
+
+ul li{
+    font-size: 15px;
+    font-weight: 500;
+    color:#3b404f;
+    padding-left: 20px;
+}
+.text-1{
+    font-weight: 900;
+    font-size: 64px;
+    max-width: 700px;
+    margin: 150px auto 0 auto ;
+}
+.text-2{
+    font-size: 18px;
+    max-width: 500px;
+    margin:30px auto;
+}
+.prev-btn{ 
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+}
+.carousel-indicators [data-bs-target]{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    border-color: transparent;
+    border: 1px solid  #fab702;
+}
+.carousel-indicators .active{
+    background-color:  #fab702;
+    height: 8.0px;
+    width: 8.0px;
+    margin-top: 1px;
+}
+.contact{
+    background-color: #fab702;
+}
+.par-1{
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+}
+.link-1{
+    font-size: 30px;
+    font-weight: 400;
+    color: #000;
+}
+.link-2{
+    font-size: 16px;
+    color: #fab702;
+    font-weight: 400;
+    background-color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 70px;
+}
+.title{
+    font-size: 44px;
+    color: #3b404f;
+    flex-wrap: 700;
+}
+
+.text-3{
+    font-size:18px;
+    color: #6d7396;
+    font-weight: 400;
+    line-height: 30px;
+}
+.house{
+    max-width: 360px;
+    margin: 0  auto;
+}
+.house card-title{
+    font-size:15px;
+    font-weight: 700;
+    color: #3b404f;
+} 
+.text-h{
+    font-size:16px;
+    color:#6d7396;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.links{
+    font-size:14px;
+    color:  #3b404f;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.backcolor{
+    background-color:#f8f8f8;
+} 
+.h-gr{
+    font-size:22px;
+    color: #3b404f;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 60px;
+}
+.head-img1{
+    background-image: url(/images/ic-city.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.p-gr{
+    font-size:16px;
+    color: #6d7396;
+    font-weight: 400;
+}
+.head-img2{
+    background-image: url(/images/ic-home.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.head-img3{
+    background-image: url(/images/ic-refabr.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.paragraphs{
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+
+.col-text{
+    font-size: 16px;
+    color: #6d7396;
+    font-weight: 400;  
+}
+.col-par{
+    font-size: 11px;
+    color:  #3b404f;
+    font-weight: 500;
+} 
+.footer{
+    background-color: #4c5b6d;
+}
+.footext{
+    font-size: 13px;
+    color: #d8deff;
+    font-weight: 400;
+}

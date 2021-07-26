@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice #6</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2 family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header pb-2">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="buildx" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav navig">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div id="myIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#myIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#myIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/slider-pic.jpg"
+            class="d-block w-100"
+            alt="big-pick1"
+          />
+          <div class="carousel-caption d-md-block">
+            <p class="text-car text-1 text-white text-center text-uppercase">
+              We Do Big Things With Big Ideas
+            </p>
+            <p class="text-2 text-center text-white">
+              Talk To Our Experts and Get Your Dream Home Done. If you dream of
+              designing a new home that takes full advantage of the unique
+              geography and views of land that you love
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="images/slider-pic.jpg"
+            class="d-block w-100"
+            alt="bigg-pick2"
+          />
+          <div class="carousel-caption d-md-block">
+            <p class="text-car text-1 text-white text-center text-uppercase">
+              Everything starts with Ideas
+            </p>
+            <p class="text-2 text-center text-white">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
+              eos fugiat nostrum maiores quisquam delectus!
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/slider-pic.jpg"
+            class="d-block w-100"
+            alt="slider-pic"
+          />
+          <div class="carousel-caption d-md-block">
+            <p class="text-car text-1 text-white text-center text-uppercase">
+              thoughts are material
+            </p>
+            <p class="text-2 text-center text-white">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, nemo
+              nisi. Quibusdam magnam rem consequatur tenetur facilis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#myIndicators"
+        data-bs-slide="prev"
+      >
+        <i class="bi bi-arrow-left-circle prev-btn"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#myIndicators"
+        data-bs-slide="next"
+      >
+        <i class="bi bi-arrow-right-circle prev-btn"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="contact">
+      <div class="container pt-md-4">
+        <div class="d-flex justify-content-center">
+          <p class="par-1 w-100">
+            Consulting and Estimate for your Project,
+            <a href="#" class="link-1">Contact Us Today</a>
+            <a href="#" class="link-2">Get a Quote</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white py-5">
+      <div class="container">
+        <h1 class="text-center title">Our Services</h1>
+        <p class="text-center pt-3 text-3">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur
+          veniam, voluptatem repellat accusamus nihil tempora cupiditate
+          similique, dolore maiores amet illo nam Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Pariatur, vel. Lorem ipsum dolor sit
+          amet consectetur.
+        </p>
+      </div>
+    </div>
+
+    <div class="container py-5 mb-5">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+        <div class="col mb-3">
+          <div class="card border-0 house h-100">
+            <img
+              src="images/photo-1.jpg"
+              class="card-img-top rounded-0"
+              alt="pic1"
+            />
+            <div class="card-body p-0">
+              <h5 class="card-title text-uppercase pt-4 pb-3">Renovations</h5>
+              <p class="card-text text-h">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quisquam, odio.Some quick example text to build on the card
+                title and make up the bulk of the card's content.
+              </p>
+            </div>
+            <div class="btn-group pt-3">
+              <a href="#" class="links w-100">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card border-0 house h-100">
+            <img
+              src="images/photo-2.jpg"
+              class="card-img-top rounded-0"
+              alt="pic2"
+            />
+            <div class="card-body p-0">
+              <h5 class="card-title text-uppercase pt-4 pb-3">Consulting</h5>
+              <p class="card-text text-h">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo,
+                non.Some quick example text to build on the card title and make
+                up the bulk of the card's content.
+              </p>
+            </div>
+            <div class="btn-group pt-3">
+              <a href="#" class="links w-100">Read more</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-3">
+          <div class="card border-0 house h-100">
+            <img
+              src="images/photo-3.jpg"
+              class="card-img-top rounded-0"
+              alt="pic3"
+            />
+            <div class="card-body p-0">
+              <h5 class="card-title text-uppercase pt-4 pb-3">Smart house</h5>
+              <p class="card-text text-h">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Adipisci, vel!Some quick example text to build on the card title
+                and make up the bulk of the card's content.
+              </p>
+            </div>
+            <div class="btn-group pt-3">
+              <a href="#" class="links w-100">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="backcolor">
+      <div class="container align-self-center my-5">
+        <div
+          class="
+            row
+            row-cols-1
+            row-cols-sm-1
+            row-cols-md-1
+            row-cols-lg-1
+            row-cols-xl-2
+            row-cols-xxl-2
+          "
+        >
+          <div class="col my-5">
+            <img src="images/photo-4.jpg" alt="building" />
+          </div>
+          <div class="col my-5">
+            <div>
+              <h3 class="h-gr head-img1">General Builder</h3>
+              <p class="p-gr">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Maiores unde vitae in dolor quia aut alias fugit itaque quisquam
+                explicabo!
+              </p>
+              <h3 class="h-gr head-img2">House Extensions</h3>
+              <p class="p-gr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                ea repudiandae dicta, cum velit ullam magnam eos impedit
+                sapiente officia.
+              </p>
+              <h3 class="h-gr head-img3">Refubishment</h3>
+              <p class="p-gr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                dolor vel dicta placeat modi debitis corporis alias laudantium
+                exercitationem dolorum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-white paragraphs">
+      <div class="container">
+        <h1 class="text-center title text-uppercase">Customer Feedback</h1>
+        <p class="text-center pt-3 text-3">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur
+          veniam, voluptatem repellat accusamus nihil tempora cupiditate
+          similique, dolore maiores amet illo nam Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Pariatur, vel. Lorem ipsum dolor sit
+          amet consectetur.
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col bg-light">
+          <div
+            class="
+              row
+              row-cols-1
+              row-cols-sm-1
+              row-cols-md-1
+              row-cols-lg-1
+              row-cols-xl-2
+              row-cols-xxl-2
+            "
+          >
+            <div class="d-flex">
+              <div class="flex-shrink-0">
+                <img src="images/avatar-1.jpg" alt="woman1" />
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <p class="col-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Pariatur quaerat nemo porro!
+                </p>
+                <h5 class="col-par text-uppercase">Housbuilders-CEO</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col bg-light">
+          <div
+            class="
+              row
+              row-cols-1
+              row-cols-sm-1
+              row-cols-md-1
+              row-cols-lg-1
+              row-cols-xl-2
+              row-cols-xxl-2
+            "
+          >
+            <div class="d-flex">
+              <div class="flex-shrink-0">
+                <img src="images/avatar-2.jpg" alt="woman2" />
+              </div>
+              <div class="flex-grow-1 ms-3">
+                <p class="col-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Pariatur quaerat nemo porro!
+                </p>
+                <h5 class="col-par text-uppercase">Housbuilders-CEO</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-5">
+      <div
+        class="
+          row
+          row-cols-1
+          row-cols-sm-1
+          row-cols-md-2
+          row-cols-lg-4
+          row-cols-xl-4
+          row-cols-xxl-4
+        "
+      >
+        <div class="col">
+          <a href="#">
+            <img src="images/company-1.jpg" alt="" />
+          </a>
+        </div>
+        <div class="col">
+          <a href="#"> <img src="images/company-2.jpg" alt="" /></a>
+        </div>
+        <div class="col">
+          <a href="#"><img src="images/company-3.jpg" alt="" /></a>
+        </div>
+        <div class="col">
+          <a href="#"><img src="images/company-4.jpg" alt="" /></a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer text-uppercase">
+      <div class="container mt-4 pt-md-4">
+        <div class="row">
+          <div class="col-12 col-md">
+            <p class="footext">&copy; Themeexpert 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
